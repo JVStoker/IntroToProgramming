@@ -1,0 +1,66 @@
+game="Minecraft"
+print(game)
+#this is a comment bro 
+player_name="Jamison Stoker"
+number1=5
+#strings are in between quotes
+#string concatenation when you add strings together
+number2="Jamison "
+number3="Stoker"
+print(number2+number3)
+
+#good variable naming skills
+#Variables cannot start with a number
+#example: 3cars=honda won't work because it starts with a 3
+#variables can not contain spaces, use_instead
+#variables should always be lowercase
+Game="minecraft"
+#this is diffrent from line 1 because of captial letters.
+#variable names should correspond with what the value is
+
+#variables can change, python is a top down language
+score=10
+score=20
+#we can reassign variable values by retyping variable name and applying the new value
+print(score)
+
+fav_team="New England"
+#do not do it this way
+print("My favorite team is " + fav_team + " since they are cool")
+#we do it this way because f strings are easier
+print(f"My favorite team is {fav_team} since they are cool")
+#put f in the paratheses and use curly brackets for your variables
+favplayer="Tom Brady"
+sb=7
+print(f"My favorite player is {favplayer} and he won {sb} rings")
+
+total=5+3
+print(total)
+#python can do addition, subtraction, division, and multiplcation
+# % Gives us the remainder
+total=5%3
+print(total)
+
+# ** are for exponents
+print(10**2)
+
+#// is for floor division
+print(15//2)
+#floor division gives you the whole number, ignoring the remainder
+
+price=10
+quantity=5
+totalprice=price*quantity
+print(totalprice)
+
+score=15
+score=score+5
+print(score)
+#adding to the variable by refrencing itself
+#score now equals 20
+
+score+=5
+#this is a simpler way of typing line 57
+#the += can be -= *=
+print(score)
+
