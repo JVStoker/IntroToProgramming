@@ -1,0 +1,7 @@
+hatecolor=input("What is your least favorite color?")
+blanketcolor=input("what color is your blanket?")
+print("your blanket is " + blanketcolor +"?")
+print("I don't really care what color your blanket is, but it is " + blanketcolor + " right?")
+answer=input("yes or no?")
+print("OK, I used magic to change your blanket to " + hatecolor + ". Sorry. I don't know how to change it back.")
+print("Good luck changing it back.")
