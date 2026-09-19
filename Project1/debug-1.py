@@ -4,10 +4,10 @@
 # This program should add three numbers together.
 
 total = 0
-num1 = input("What's the first number? >")
-total = num1
-num2 = input("What's the second number? >")
-total = num2
-num3 = input("What's the third number? >")
-total = num3
-print(f"Total is: {total}")
+num1 = int(input("What's the first number? >"))
+total1 = num1
+num2 = int(input("What's the second number? >"))
+total2 = num2
+num3 = int(input("What's the third number? >"))
+total3 = num3
+print(f"Total is: {total1 + total2 + total3}")
