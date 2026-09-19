@@ -1,4 +1,5 @@
 #DnD ability check
+#I like DnD, so roll a D20 and the program will take the number and let you know what happens
 check=int(input("What did you roll with your D20?"))
 if check <=6:
     print("You suddenly die. To bad.")

@@ -3,6 +3,7 @@
 
 # This program should add three numbers together.
 
+#i made the num variables integers and gave them each their own total variable to add together.
 total = 0
 num1 = int(input("What's the first number? >"))
 total1 = num1
